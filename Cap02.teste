@@ -1,0 +1,42 @@
+# 1Âºs Passos em R
+getwd()
+
+# Nome dos Contribuidores
+contributors()
+
+# Licença
+license()
+
+# Informações sobre a sessão
+sessionInfo()
+
+print('Estou Iniciando Minha Carreira na Ciência de Dados')
+
+# Plotar Reta (X,Y)
+
+plot(1:25)
+
+
+# Instalar Pacotes
+install.packages('randomForest')
+install.packages('ggplot2')
+install.packages("dplyr")
+install.packages("devtools")
+install.packages('sos')
+
+library(ggplot2)
+detach(package:ggplot2)
+library(sos)
+findFn('fRead')
+
+help("matplot")
+?matplot
+help.search('ggplot2')
+help.search('caret')
+??matplot
+
+example('matplot')
+
+help('ggplot2')
+??ggplot2
+??matplot
